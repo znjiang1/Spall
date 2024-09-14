@@ -23,7 +23,7 @@ First, you should have a 'data' folder in the root dir.
 
 Before running the model, the data preprocessing should be conducted:  
 `python featureSelection.py --data_root ./data/`  
-`python pseudoSpotGen.py --data_root ./data/ --num_spots 3000` 
+`python pseudoSpotGen.py --data_root ./data/ --num_spots 3000`  
 `Rscript integration.R`   
 `python graphLinking.py --data_root ./data/PDAC-A`
 
