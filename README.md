@@ -22,12 +22,12 @@ First, you should have a 'data' folder in the root dir.
 - For the ST data, you will need 'st_data.h5ad', representing the gene expression matrix of spots.  
 
 Before running the model, the data preprocessing should be conducted:  
-`python featureSelection.py --data_root ./data/`  
-`python pseudoSpotGen.py --data_root ./data/ --num_spots 3000`  
+`python featureSelection.py --data_root ./data`  
+`python pseudoSpotGen.py --data_root ./data --num_spots 3000`  
 `Rscript integration.R`   
-`python graphLinking.py --data_root ./data/PDAC-A`
+`python graphLinking.py --data_root ./data`
 
 Then the model can be trained:  
-`python train.py --data_root ./data/PDAC-A`
+`python train.py --data_root ./data`
 
 Finally, the result files can be accessed in data/results folder.
