@@ -162,6 +162,3 @@ cython_debug/
 #.idea/
 
 data/
-!data/PDAC-A/meta_data.csv
-!data/PDAC-A/st_data.h5ad
-!data/PDAC-A/sc_data.h5ad

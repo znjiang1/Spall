@@ -23,7 +23,7 @@ First, you should have a 'data' folder in the root dir.
 - For the ST data, you will need 'st_data.h5ad', representing the gene expression matrix of spots.  
 
 ## Example on the PDAC-A data
-Before running the model, the data preprocessing should be conducted (the data can be accessed directly from the git repository):  
+Before running the model, the data preprocessing should be conducted (the data can be accessed from the google drive link: https://drive.google.com/drive/folders/1_hNfLJaAfvIsCqJMj-jGSVz7XP1E8w38?usp=drive_link):  
 1. Marker gene selection:  
     `python featureSelection.py --data_root ./data/PDAC-A`   
     Then you will get the **feature_list.txt** in the working dir.
