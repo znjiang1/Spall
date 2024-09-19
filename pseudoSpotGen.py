@@ -4,11 +4,17 @@ import scanpy as sc
 import numpy as np
 from scipy.sparse import csr_matrix, vstack, issparse
 from sklearn.utils import resample
+from sklearn import random
 import time
 from tqdm import tqdm
 import argparse
 pd.options.mode.chained_assignment = None  # default='warn'
     
+
+seed = 43
+np.random.seed(seed)
+random.seed(seed)
+
 
 def test_spot_fun(
         adata: sc.AnnData,

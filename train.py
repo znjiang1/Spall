@@ -6,11 +6,13 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from tqdm import tqdm
 import argparse
+import torch_geometric
 
 from SpiderUtils.dataset import SpiderDataset
 from SpiderUtils.models import Spider
 from SpiderUtils.Cosine_warm import CosineWarmupDecay
 plt.switch_backend('agg')
+torch_geometric.seed_everything(43)
 
 Loss = nn.CrossEntropyLoss(reduction='mean')
 
@@ -161,11 +163,11 @@ if __name__ == "__main__":
     BEST_RESULT_PATH = os.path.join(save_dir, "best_result.csv")
     LAST_RESULT_PATH = os.path.join(save_dir, "result_last.csv")
 
-    Epochs = 1000
+    Epochs = 3000
     Patience = 300
     Learning_Rate = 0.01
     Weight_Decay = 0.0
-    hid_units = [128, 128]
+    hid_units = [256, 128]
     n_heads = [8, 8]
     dropout=0.1
     draw_after = True
@@ -183,7 +185,8 @@ if __name__ == "__main__":
         )
 
     optimizer = torch.optim.Adam(model.parameters(), lr=Learning_Rate, weight_decay=Weight_Decay)
-    scheduler = CosineWarmupDecay(optimizer, warmup_step=5, total_step=20, multi=0.25, print_step=1)
+    # scheduler = CosineWarmupDecay(optimizer, warmup_step=5, total_step=20, multi=0.25, print_step=1)
+    scheduler = torch.optim.lr_scheduler.OneCycleLR(optimizer, max_lr=Learning_Rate, total_steps=Epochs, pct_start=0.01, anneal_strategy='cos')
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = model.to(device)
     data = dataset[0].to(device)
