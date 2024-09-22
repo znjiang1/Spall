@@ -1,0 +1,427 @@
+	x	y	Region
+10x13	10	13	Duct Epithelium
+10x14	10	14	Duct Epithelium
+10x15	10	15	Duct Epithelium
+10x16	10	16	Duct Epithelium
+10x17	10	17	Duct Epithelium
+10x19	10	19	Duct Epithelium
+10x20	10	20	Duct Epithelium
+10x24	10	24	Duct Epithelium
+10x25	10	25	Duct Epithelium
+10x26	10	26	Duct Epithelium
+10x27	10	27	Duct Epithelium
+10x28	10	28	Duct Epithelium
+10x29	10	29	Duct Epithelium
+10x30	10	30	Duct Epithelium
+10x31	10	31	Duct Epithelium
+10x32	10	32	Stroma
+10x33	10	33	Stroma
+11x11	11	11	Stroma
+11x13	11	13	Stroma
+11x14	11	14	Stroma
+11x15	11	15	Stroma
+11x16	11	16	Stroma
+11x17	11	17	Stroma
+11x19	11	19	Duct Epithelium
+11x21	11	21	Duct Epithelium
+11x22	11	22	Duct Epithelium
+11x23	11	23	Duct Epithelium
+11x24	11	24	Duct Epithelium
+11x25	11	25	Duct Epithelium
+11x26	11	26	Duct Epithelium
+11x27	11	27	Duct Epithelium
+11x28	11	28	Duct Epithelium
+11x29	11	29	Duct Epithelium
+11x30	11	30	Duct Epithelium
+11x31	11	31	Stroma
+11x32	11	32	Stroma
+11x33	11	33	Stroma
+11x34	11	34	Stroma
+12x13	12	13	Stroma
+12x14	12	14	Stroma
+12x15	12	15	Stroma
+12x16	12	16	Stroma
+12x17	12	17	Stroma
+12x19	12	19	Duct Epithelium
+12x20	12	20	Duct Epithelium
+12x21	12	21	Duct Epithelium
+12x22	12	22	Duct Epithelium
+12x23	12	23	Duct Epithelium
+12x24	12	24	Duct Epithelium
+12x25	12	25	Duct Epithelium
+12x26	12	26	Stroma
+12x27	12	27	Stroma
+12x28	12	28	Stroma
+12x29	12	29	Stroma
+12x30	12	30	Cancer
+12x31	12	31	Stroma
+12x32	12	32	Stroma
+12x33	12	33	Stroma
+12x34	12	34	Stroma
+13x13	13	13	Pancreatic
+13x14	13	14	Stroma
+13x15	13	15	Pancreatic
+13x16	13	16	Pancreatic
+13x17	13	17	Stroma
+13x19	13	19	Duct Epithelium
+13x20	13	20	Duct Epithelium
+13x21	13	21	Duct Epithelium
+13x22	13	22	Duct Epithelium
+13x23	13	23	Duct Epithelium
+13x24	13	24	Duct Epithelium
+13x25	13	25	Pancreatic
+13x26	13	26	Pancreatic
+13x27	13	27	Pancreatic
+13x28	13	28	Stroma
+13x29	13	29	Cancer
+13x30	13	30	Cancer
+13x31	13	31	Cancer
+13x32	13	32	Cancer
+13x33	13	33	Stroma
+13x34	13	34	Stroma
+14x13	14	13	Pancreatic
+14x14	14	14	Pancreatic
+14x15	14	15	Pancreatic
+14x16	14	16	Pancreatic
+14x17	14	17	Pancreatic
+14x18	14	18	Stroma
+14x19	14	19	Stroma
+14x20	14	20	Stroma
+14x21	14	21	Stroma
+14x22	14	22	Stroma
+14x23	14	23	Stroma
+14x24	14	24	Pancreatic
+14x25	14	25	Pancreatic
+14x26	14	26	Pancreatic
+14x27	14	27	Pancreatic
+14x28	14	28	Cancer
+14x29	14	29	Cancer
+14x30	14	30	Cancer
+14x31	14	31	Cancer
+14x32	14	32	Cancer
+14x33	14	33	Cancer
+14x34	14	34	Cancer
+15x13	15	13	Pancreatic
+15x14	15	14	Pancreatic
+15x15	15	15	Pancreatic
+15x16	15	16	Pancreatic
+15x17	15	17	Pancreatic
+15x18	15	18	Pancreatic
+15x19	15	19	Stroma
+15x20	15	20	Stroma
+15x21	15	21	Stroma
+15x22	15	22	Stroma
+15x23	15	23	Stroma
+15x24	15	24	Pancreatic
+15x25	15	25	Pancreatic
+15x26	15	26	Pancreatic
+15x27	15	27	Pancreatic
+15x28	15	28	Pancreatic
+15x29	15	29	Cancer
+15x30	15	30	Cancer
+15x31	15	31	Cancer
+15x32	15	32	Cancer
+15x33	15	33	Cancer
+15x34	15	34	Cancer
+16x13	16	13	Pancreatic
+16x14	16	14	Pancreatic
+16x15	16	15	Pancreatic
+16x16	16	16	Pancreatic
+16x17	16	17	Pancreatic
+16x18	16	18	Pancreatic
+16x19	16	19	Stroma
+16x20	16	20	Stroma
+16x21	16	21	Stroma
+16x22	16	22	Stroma
+16x23	16	23	Stroma
+16x24	16	24	Pancreatic
+16x25	16	25	Pancreatic
+16x26	16	26	Pancreatic
+16x27	16	27	Pancreatic
+16x28	16	28	Pancreatic
+16x30	16	30	Cancer
+16x31	16	31	Cancer
+16x32	16	32	Cancer
+16x33	16	33	Cancer
+16x34	16	34	Cancer
+17x13	17	13	Pancreatic
+17x14	17	14	Pancreatic
+17x15	17	15	Pancreatic
+17x16	17	16	Pancreatic
+17x17	17	17	Pancreatic
+17x18	17	18	Pancreatic
+17x19	17	19	Stroma
+17x20	17	20	Stroma
+17x21	17	21	Stroma
+17x22	17	22	Pancreatic
+17x23	17	23	Stroma
+17x24	17	24	Stroma
+17x25	17	25	Pancreatic
+17x26	17	26	Pancreatic
+17x28	17	28	Cancer
+17x29	17	29	Cancer
+17x30	17	30	Cancer
+17x31	17	31	Cancer
+17x32	17	32	Cancer
+17x33	17	33	Cancer
+17x34	17	34	Cancer
+18x13	18	13	Pancreatic
+18x14	18	14	Pancreatic
+18x15	18	15	Pancreatic
+18x16	18	16	Pancreatic
+18x17	18	17	Pancreatic
+18x18	18	18	Pancreatic
+18x19	18	19	Stroma
+18x20	18	20	Stroma
+18x21	18	21	Pancreatic
+18x22	18	22	Pancreatic
+18x23	18	23	Pancreatic
+18x24	18	24	Stroma
+18x25	18	25	Stroma
+18x26	18	26	Stroma
+18x28	18	28	Cancer
+18x29	18	29	Cancer
+18x30	18	30	Cancer
+18x31	18	31	Cancer
+18x32	18	32	Cancer
+18x33	18	33	Cancer
+18x34	18	34	Cancer
+19x13	19	13	Pancreatic
+19x14	19	14	Stroma
+19x15	19	15	Stroma
+19x17	19	17	Pancreatic
+19x18	19	18	Pancreatic
+19x19	19	19	Pancreatic
+19x20	19	20	Stroma
+19x21	19	21	Stroma
+19x22	19	22	Pancreatic
+19x23	19	23	Pancreatic
+19x24	19	24	Pancreatic
+19x25	19	25	Stroma
+19x26	19	26	Stroma
+19x27	19	27	Stroma
+19x28	19	28	Stroma
+19x29	19	29	Cancer
+19x30	19	30	Cancer
+19x31	19	31	Cancer
+19x32	19	32	Cancer
+19x33	19	33	Cancer
+19x34	19	34	Cancer
+20x13	20	13	Stroma
+20x14	20	14	Stroma
+20x15	20	15	Stroma
+20x16	20	16	Stroma
+20x17	20	17	Stroma
+20x18	20	18	Stroma
+20x19	20	19	Pancreatic
+20x20	20	20	Stroma
+20x21	20	21	Stroma
+20x22	20	22	Pancreatic
+20x23	20	23	Pancreatic
+20x24	20	24	Pancreatic
+20x25	20	25	Stroma
+20x26	20	26	Stroma
+20x27	20	27	Stroma
+20x28	20	28	Cancer
+20x29	20	29	Cancer
+20x30	20	30	Cancer
+20x31	20	31	Cancer
+20x32	20	32	Cancer
+20x33	20	33	Cancer
+20x34	20	34	Cancer
+21x14	21	14	Stroma
+21x15	21	15	Stroma
+21x16	21	16	Stroma
+21x17	21	17	Stroma
+21x18	21	18	Stroma
+21x19	21	19	Stroma
+21x20	21	20	Stroma
+21x21	21	21	Stroma
+21x22	21	22	Pancreatic
+21x23	21	23	Pancreatic
+21x24	21	24	Pancreatic
+21x25	21	25	Stroma
+21x26	21	26	Stroma
+21x28	21	28	Cancer
+21x29	21	29	Cancer
+21x30	21	30	Cancer
+21x31	21	31	Cancer
+21x32	21	32	Cancer
+21x33	21	33	Cancer
+22x14	22	14	Stroma
+22x15	22	15	Stroma
+22x16	22	16	Stroma
+22x17	22	17	Stroma
+22x18	22	18	Stroma
+22x19	22	19	Stroma
+22x20	22	20	Stroma
+22x21	22	21	Stroma
+22x23	22	23	Pancreatic
+22x24	22	24	Cancer
+22x25	22	25	Stroma
+22x26	22	26	Cancer
+22x27	22	27	Cancer
+22x28	22	28	Cancer
+22x29	22	29	Cancer
+22x30	22	30	Cancer
+22x31	22	31	Cancer
+22x32	22	32	Cancer
+22x33	22	33	Cancer
+23x15	23	15	Stroma
+23x16	23	16	Stroma
+23x17	23	17	Cancer
+23x18	23	18	Cancer
+23x19	23	19	Cancer
+23x20	23	20	Stroma
+23x21	23	21	Stroma
+23x22	23	22	Stroma
+23x23	23	23	Stroma
+23x24	23	24	Cancer
+23x25	23	25	Cancer
+23x26	23	26	Cancer
+23x27	23	27	Cancer
+23x28	23	28	Cancer
+23x29	23	29	Cancer
+23x30	23	30	Cancer
+23x31	23	31	Cancer
+23x32	23	32	Cancer
+24x16	24	16	Stroma
+24x17	24	17	Cancer
+24x18	24	18	Cancer
+24x19	24	19	Cancer
+24x20	24	20	Stroma
+24x21	24	21	Stroma
+24x22	24	22	Cancer
+24x23	24	23	Cancer
+24x24	24	24	Cancer
+24x25	24	25	Cancer
+24x26	24	26	Cancer
+24x27	24	27	Cancer
+24x28	24	28	Cancer
+24x29	24	29	Cancer
+24x30	24	30	Cancer
+24x31	24	31	Cancer
+24x32	24	32	Cancer
+25x17	25	17	Cancer
+25x18	25	18	Cancer
+25x19	25	19	Cancer
+25x20	25	20	Stroma
+25x21	25	21	Cancer
+25x22	25	22	Cancer
+25x23	25	23	Cancer
+25x24	25	24	Cancer
+25x25	25	25	Cancer
+25x26	25	26	Cancer
+25x27	25	27	Cancer
+25x28	25	28	Cancer
+25x29	25	29	Cancer
+25x30	25	30	Cancer
+25x31	25	31	Cancer
+25x32	25	32	Cancer
+26x17	26	17	Stroma
+26x18	26	18	Stroma
+26x19	26	19	Cancer
+26x20	26	20	Stroma
+26x21	26	21	Cancer
+26x22	26	22	Cancer
+26x23	26	23	Cancer
+26x24	26	24	Cancer
+26x25	26	25	Cancer
+26x26	26	26	Cancer
+26x27	26	27	Cancer
+26x28	26	28	Cancer
+26x29	26	29	Cancer
+26x30	26	30	Cancer
+26x31	26	31	Cancer
+27x18	27	18	Stroma
+27x19	27	19	Stroma
+27x20	27	20	Stroma
+27x21	27	21	Cancer
+27x22	27	22	Cancer
+27x23	27	23	Cancer
+27x25	27	25	Cancer
+27x26	27	26	Cancer
+27x27	27	27	Cancer
+27x28	27	28	Cancer
+28x18	28	18	Stroma
+28x19	28	19	Stroma
+28x20	28	20	Stroma
+28x21	28	21	Cancer
+28x22	28	22	Cancer
+28x23	28	23	Cancer
+28x25	28	25	Cancer
+28x26	28	26	Cancer
+29x19	29	19	Stroma
+29x20	29	20	Cancer
+29x21	29	21	Cancer
+29x22	29	22	Cancer
+29x23	29	23	Cancer
+2x14	2	14	Stroma
+2x15	2	15	Stroma
+2x16	2	16	Stroma
+2x17	2	17	Duct Epithelium
+2x18	2	18	Duct Epithelium
+30x20	30	20	Cancer
+30x21	30	21	Cancer
+30x22	30	22	Cancer
+3x13	3	13	Stroma
+3x14	3	14	Stroma
+3x15	3	15	Stroma
+3x16	3	16	Stroma
+3x17	3	17	Duct Epithelium
+3x18	3	18	Duct Epithelium
+4x10	4	10	Stroma
+4x11	4	11	Stroma
+4x13	4	13	Stroma
+4x14	4	14	Stroma
+4x15	4	15	Stroma
+4x16	4	16	Duct Epithelium
+4x17	4	17	Duct Epithelium
+4x8	4	8	Stroma
+4x9	4	9	Stroma
+5x10	5	10	Stroma
+5x11	5	11	Stroma
+5x13	5	13	Stroma
+5x14	5	14	Stroma
+5x15	5	15	Stroma
+5x16	5	16	Duct Epithelium
+5x17	5	17	Duct Epithelium
+5x8	5	8	Stroma
+5x9	5	9	Stroma
+6x10	6	10	Stroma
+6x11	6	11	Stroma
+6x13	6	13	Stroma
+6x14	6	14	Stroma
+6x15	6	15	Duct Epithelium
+6x16	6	16	Duct Epithelium
+6x31	6	31	Duct Epithelium
+6x32	6	32	Duct Epithelium
+6x33	6	33	Duct Epithelium
+6x9	6	9	Stroma
+7x10	7	10	Stroma
+7x11	7	11	Stroma
+7x13	7	13	Duct Epithelium
+7x14	7	14	Duct Epithelium
+7x31	7	31	Duct Epithelium
+7x32	7	32	Duct Epithelium
+7x33	7	33	Duct Epithelium
+8x10	8	10	Stroma
+8x11	8	11	Stroma
+8x13	8	13	Duct Epithelium
+8x14	8	14	Duct Epithelium
+8x31	8	31	Duct Epithelium
+8x32	8	32	Duct Epithelium
+8x33	8	33	Duct Epithelium
+9x10	9	10	Stroma
+9x11	9	11	Stroma
+9x13	9	13	Duct Epithelium
+9x16	9	16	Duct Epithelium
+9x17	9	17	Duct Epithelium
+9x18	9	18	Duct Epithelium
+9x26	9	26	Duct Epithelium
+9x27	9	27	Duct Epithelium
+9x29	9	29	Duct Epithelium
+9x30	9	30	Duct Epithelium
+9x31	9	31	Duct Epithelium
+9x32	9	32	Duct Epithelium
+9x33	9	33	Stroma
