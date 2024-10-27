@@ -103,7 +103,7 @@ For STARmap simulation dataset, the hardware platform consists of an Intel Core 
 For Stereoseq dataset, the hardware platform consists of Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50 GHz, NVIDIA A800 80GB, and 90 GB RAM.
 | Methods         | Time (sec) | Time (min) |
 |-----------------|------------|------------|
-| SpiderSpall     | 71         | 7          |
+| Spall           | 71         | 7          |
 | GTAD            | 58         | 5          |
 | RCTD            | 180        | 136        |
 | CARD            | 6          | 11         |
