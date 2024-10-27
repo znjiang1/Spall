@@ -1,10 +1,10 @@
-# Spider
-Implementation of "Spider: accurate and robust unveiling cellular landscapes from spatially resolved transcriptomics data using decompositional network"  
+# Spall
+Implementation of "Spall: accurate and robust unveiling cellular landscapes from spatially resolved transcriptomics data using decompositional network"  
 ## 1. Introduction
-Spider is a cell proportion decomposition network for sequencing-based SRT data. Spider works in a transductive learning manner, employing geometric deep learning gene expression and location information of spots. In order to solve the problems occuring when balancing between predicting the continuity of cellular proportion distributions and capturing cell-specific information, we introduced GATv2 and skip-connection module.  
+Spall is a cell proportion decomposition network for sequencing-based SRT data. Spall works in a transductive learning manner, employing geometric deep learning gene expression and location information of spots. In order to solve the problems occuring when balancing between predicting the continuity of cellular proportion distributions and capturing cell-specific information, we introduced GATv2 and skip-connection module.  
 
-The process workflow includes 4 steps: (1) Data preprocessing: generation of pseudo spots from reference scRNA-seq data and feature selection both on original SRT and scRNA-seq data. (2) Integration and graph construction: data integration followed by graph construction using either KNN or Random Projection Forest, depending on dataset scale. (3) Graph neural network training: implementation of two GATv2 modules and one residual module. (4) Downstream analysis: application of decomposition results estimated by Spider to various analytical tasks.
-![Example Image](images/Spider.jpg)
+The process workflow includes 4 steps: (1) Data preprocessing: generation of pseudo spots from reference scRNA-seq data and feature selection both on original SRT and scRNA-seq data. (2) Integration and graph construction: data integration followed by graph construction using either KNN or Random Projection Forest, depending on dataset scale. (3) Graph neural network training: implementation of two GATv2 modules and one residual module. (4) Downstream analysis: application of decomposition results estimated by Spall to various analytical tasks.
+![Example Image](images/Spall.jpg)
 
 
 ## 2. Requirements
@@ -29,7 +29,7 @@ You should have a 'data' folder under the root dir.
 
 The organization of the project is:
 ```
-Spider/
+Spall/
 ├─data/
 │  └─PDAC-A/
 │      |  sc_data.h5ad
@@ -37,7 +37,7 @@ Spider/
 │      |  meta_data.csv
 ├─images/
 ├─post_analysis/
-└─SpiderUtils/
+└─SpallUtils/
 ```
 
 
