@@ -96,3 +96,26 @@ Finally, the decomposed cell proportion result file can be accessed in **data/PD
 
 ### Result reproducing
 You can access the post analysis script we prepared for reproducing through [this jupyter notebook](post_analysis/PDAC_post_analysis.ipynb)
+
+
+### Running time comparison
+For STARmap simulation dataset, the hardware platform consists of an Intel Core 12600K CPU, NVIDIA GeForce RTX 4070 GPU, and 64 GB DDR4 RAM.  
+For Stereoseq dataset, the hardware platform consists of Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50 GHz, NVIDIA A800 80GB, and 90 GB RAM.
+| Methods         | Time (sec) | Time (min) |
+|-----------------|------------|------------|
+| SpiderSpall     | 71         | 7          |
+| GTAD            | 58         | 5          |
+| RCTD            | 180        | 136        |
+| CARD            | 6          | 11         |
+| Cell2location   | 411        | 485        |
+| DestVI          | 165        | 72         |
+| Tangram         | 13         | 12         |
+| SPOTLight       | 81         | 10         |
+| SpatialDecon    | 35         | 534        |
+| STRIDE          | 98         | 59         |
+| NMFreg          | 21         | 19         |
+|------------------|----------------|--------------------|
+| Dataset            | STARmap        | Stereoseq        |
+|--------------------|----------------|------------------|
+| ST data information | Spot number: 391 | Spot number: 107416 |
+| Single cell data information | Cell number: 1523 | Cell number: 50672 |
